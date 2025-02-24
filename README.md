@@ -11,28 +11,18 @@ AI : https://github.com/Jkwange/daeguhaeng_recommend_AI
 
 ### 프로젝트 개요
 
+
+
 대구행의 서버는 서비스에 등록된 사용자 정보와 관광지 추천 AI API를 바탕으로 계획, 일정을 생성하여 DB에 저장, 관리하는 역할을 합니다.
 
-### 시작하기(Getting Started)
 
-프로그램 실행 전 아래 프로그램을 설치해주세요.
+| message	| description |
+| --------- | ------------------------- | 
+| feat | 새로운 기능 추가, 기존 기능을 요구 사항에 맞추어 수정 |
+| fix	 | 기능에 대한 버그 수정 |
+| docs |	문서(주석) 수정 |
+| style	| 코드 스타일, 포맷팅에 대한 수정 |
+| refact |	기능 변화가 아닌 코드 리팩터링 |
+| test |	테스트 코드 추가/수정 |
+| chore	| 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore |
 
-- JDK 17 (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-
-
-
-### 실행 방법
-
-1. 해당 Repository의 URL을 복사한다.
-
-2. git bash를 열어 해당 Repositor를 clone한다.
-
-`git clone https://github.com/brothergiven/daeguhaeng_backend`
-
-3. 해당 디렉토리에 접속하여 `chmod 755 ./gradlew` 명령어를 입력하여 gradlew를 실행시키기 위한 권한을 변경한다.
-
-4. 권한 변경이 완료되면 `./gradlew build` 명령어를 입력하여 프로젝트를 빌드한다.
-
-5. `./gradlew bootRun` 명령어를 입력하여 프로젝트를 실행한다.
-
-6. 프로젝트가 성공적으로 실행되었는지 확인한다.
